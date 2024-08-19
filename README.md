@@ -43,8 +43,8 @@ The application consists of two main pages:
 
 1. **Clone the repository**:
 
-   git clone https://github.com/nishchaya2k/cma.git
-   cd your-repository
+   - git clone https://github.com/nishchaya2k/cma.git
+   - cd cma
 
 2. **Install dependencies**:
 
