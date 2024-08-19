@@ -8,7 +8,6 @@ This React application includes a contact management system and a dashboard with
 2. [Technologies Used](#technologies-used)
 3. [Setup and Installation](#setup-and-installation)
 4. [API Endpoints](#api-endpoints)
-5. [Folder Structure](#folder-structure)
 
 ## Project Overview
 
@@ -69,33 +68,3 @@ The application uses the following API endpoints:
 3. **Historical COVID-19 Data**:
    - **Endpoint**: `https://disease.sh/v3/covid-19/historical/all?lastdays=all`
    - **Description**: Provides historical COVID-19 data with case fluctuations over time.
-
-## Folder Structure
-
-  src/
-  │
-  ├── components/
-  │   ├── ContactItems.tsx
-  │   ├── Form.tsx
-  │   ├── Input.tsx
-  │   ├── LineChart.tsx
-  │   ├── Navbar.tsx
-  │   └── Sidebar.tsx
-  │
-  ├── pages/
-  │   ├── ChartsMaps.tsx
-  │   └── Contacts.tsx
-  │
-  ├── store/
-  │   ├── ContactSlice.ts
-  │   └── Store.ts
-  │
-  ├── utils/
-  │   ├── const.ts
-  │   └── en.ts
-  │
-  ├── App.tsx
-  ├── index.css
-  └── main.tsx
-
-
